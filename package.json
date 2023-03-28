@@ -1,0 +1,25 @@
+{
+  "name": "react-lib-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./scripts/postinstall.sh",
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbroisi/react-lib-starter.git"
+  },
+  "author": "Luiz Imbroisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imbroisi/react-lib-starter/issues"
+  },
+  "homepage": "https://github.com/imbroisi/react-lib-starter#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
