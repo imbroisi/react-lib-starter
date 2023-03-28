@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { HoverImage } from '@imbroisi/rollup-react-starter-lib-ts';
+import { HoverImage, useDoubleValue } from '@imbroisi/react-starter-lib';
 
 function App() {
+  const [double, setDouble] = useDoubleValue(1);
+
   return (
     <div className="App">
       <header className="App-header">
         <HoverImage
           src="https://rollupjs.org/rollup-logo.svg"
-          alt="xxx"
+          alt=""
           style={{}}
           className={''}
         />
+        {double}
+        <button onClick={() => setDouble(double)}>Click</button>
       </header>
     </div>
   );
 }
 
 export default App;
-
-
-
-
 

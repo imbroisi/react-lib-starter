@@ -1,5 +1,5 @@
 {
-  "name": "@imbroisi/rollup-react-starter-lib-ts",
+  "name": "@imbroisi/react-starter-lib",
   "version": "0.1.2",
   "description": "Rolllup template for creating your react/typescript library",
   "main": "./lib/cjs/index.js",

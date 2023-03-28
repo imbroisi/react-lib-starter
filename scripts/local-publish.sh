@@ -25,7 +25,7 @@ cd library
     | sed 's/[",]//g')
 
   cd ../playground
-    # npm unlink $LIB_NAME
+    npm unlink $LIB_NAME
     npm link $LIB_NAME
   cd -
 cd -

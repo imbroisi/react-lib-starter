@@ -18,9 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "linked-module-name": ["./node_modules/@imbroisi/react-starter-lib/lib/ems/*"],
+      "linked-module-name/*": ["./node_modules/@imbroisi/react-starter-lib/lib/ems/*"]
+    }
   },
   "include": [
-    "src"
+    "src/**/*.ts",
+    "src/**/*.tsx",    
   ]
 }
