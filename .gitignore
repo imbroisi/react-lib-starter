@@ -1,6 +1,5 @@
 **/node_modules
 lib/lib
-playground/imported-lib/**
 **/dist
 **/build
 **/package
@@ -9,3 +8,5 @@ playground/imported-lib/**
 es
 **/.vscode
 **/.DS_Store
+playground/imported-lib/**
+!playground/imported-lib/.gitkeepdir
