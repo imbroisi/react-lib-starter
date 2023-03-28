@@ -1,0 +1,11 @@
+**/node_modules
+lib/lib
+playground/imported-lib/**
+**/dist
+**/build
+**/package
+/umd
+**/npm-debug.log*
+es
+**/.vscode
+**/.DS_Store
