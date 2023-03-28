@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  '*.{js,jsx,ts,tsx}': [
+  '*.{ts,tsx}': [
     'eslint --max-warnings=0',
     // 'react-scripts test --bail --watchAll=false --findRelatedTests --passWithNoTests',
     () => 'tsc-files --noEmit',

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd lib
+cd library
   npm i
 cd ../playground
   npm i

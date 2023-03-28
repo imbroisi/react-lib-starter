@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-cd lib
+cd library
   npm run lint-staged
 cd -
