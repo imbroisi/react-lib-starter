@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "./scripts/postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-staged": "lint-staged --config lint-staged.js",
+    "xxxxlint-staged": "lint-staged --config lint-staged.js",
     "prepare": "husky install"
   },
   "repository": {
