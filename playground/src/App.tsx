@@ -8,14 +8,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          Hello! Here is the main App.
+          <br />
+          <br />
+          <br />
+          Bellow is an imported component.
+        </div>
         <HoverImage
-          src="https://rollupjs.org/rollup-logo.svg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcX_rwuMH3bgloMb8cw45_4I4fVmtQ022TDtIkP6hOFxNFNTWTcVWV4m_qrcA2ye4v9m8&usqp=CAU"
           alt=""
           style={{}}
           className={''}
         />
+        Here back to the main App.
+        <br />
+        <br />
+        <br />
         {double}
-        <button onClick={() => setDouble(double)}>Click</button>
+        <button onClick={() => setDouble(double)}>Click to call the imported hook</button>
       </header>
     </div>
   );

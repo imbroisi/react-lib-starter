@@ -6,10 +6,8 @@ cd library
   zipFile=`npm pack`
 
   mv $zipFile ../playground/imported-lib
-  # mv $zipFile ..
 
   cd ../playground/imported-lib
-    rm -rf package
     tar -xvzf $zipFile
     rm $zipFile
   cd -
@@ -25,7 +23,6 @@ cd library
     | sed 's/[",]//g')
 
   cd ../playground
-    npm unlink $LIB_NAME
     npm link $LIB_NAME
   cd -
 cd -
