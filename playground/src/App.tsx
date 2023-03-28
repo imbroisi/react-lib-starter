@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HoverImage, useDoubleValue } from '@imbroisi/react-starter-lib';
+import { HoverImage, useDoubleValue } from '@your-npm-repo-name/react-starter-lib';
 
 function App() {
   const [double, setDouble] = useDoubleValue(1);

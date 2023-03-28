@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "cd playground && npm start && cd -",
     "postinstall": "./scripts/postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "local-publish": "./scripts/local-publish.sh",
