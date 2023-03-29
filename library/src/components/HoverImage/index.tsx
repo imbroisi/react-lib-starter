@@ -16,6 +16,7 @@ export default function HoverImage({
 
   return (
     <div
+      data-testid="container"
       style={{
         overflow: 'hidden',
         ...style,

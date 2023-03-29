@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd playground && npm start && cd -",
+    "start": "cd playground && npm start",
     "postinstall": "./scripts/postinstall.sh",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "local-publish": "./scripts/local-publish.sh",
+    "test": "cd library && npm run test",
+    "test:watch": "cd library && npm run test:watch",
     "prepare": "husky install"
   },
   "repository": {

@@ -3,4 +3,5 @@
 
 cd library
   npm run lint-staged
+  npm run test
 cd -
