@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { HoverImage, useDoubleValue } from '@your-npm-repo-name/react-starter-lib';
 
-function App() {
+const App = () => {
   const [double, setDouble] = useDoubleValue(1);
 
   return (
@@ -13,24 +13,25 @@ function App() {
           <br />
           <br />
           <br />
-          Bellow is an imported component.
+          Bellow is the imported component.
         </div>
         <HoverImage
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcX_rwuMH3bgloMb8cw45_4I4fVmtQ022TDtIkP6hOFxNFNTWTcVWV4m_qrcA2ye4v9m8&usqp=CAU"
-          alt=""
-          style={{}}
-          className={''}
+          src="https://www.gstatic.com/webp/gallery/4.webp"
+          style={{ width: '40%' }}
         />
         Here back to the main App.
         <br />
         <br />
         <br />
+
         {double}
-        <button onClick={() => setDouble(double)}>Click to call the imported hook</button>
+        
+        <button onClick={() => setDouble(double)}>
+          Click to use the imported hook
+        </button>
       </header>
     </div>
   );
 }
 
 export default App;
-

@@ -1,5 +1,11 @@
 #!/bin/bash
 
+LIB_NAME=$(cat library/package.json \
+  | grep name \
+  | head -1 \
+  | awk -F: '{ print $2 }' \
+  | sed 's/[",]//g')
+
 cd library
   rm -rf lib
   npm run build
@@ -16,17 +22,11 @@ cd library
     npm link
   cd -
 
-  LIB_NAME=$(cat package.json \
-    | grep name \
-    | head -1 \
-    | awk -F: '{ print $2 }' \
-    | sed 's/[",]//g')
-
   cd ../playground
     npm link $LIB_NAME
   cd -
-cd -
+cd ..
 
 cd playground
   npm start
-cd -
+cd ..

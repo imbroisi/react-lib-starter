@@ -37,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/imbroisi/rollup-react-starter-lib-ts"
+    "url": "https://github.com/imbroisi/react-lib-starter"
   },
-  "author": "Luiz Imbroisi based on Mau BJW https://github.com/thiswallz/rollup-react-starter-lib-ts",
+  "author": "Luiz Imbroisi",
   "license": "MIT",
   "keywords": [
     "react-template",

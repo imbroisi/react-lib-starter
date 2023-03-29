@@ -2,16 +2,16 @@ import React, { CSSProperties } from 'react';
 
 type HoverImageProps = {
   src: string;
-  alt: string;
-  className: string;
-  style: CSSProperties;
+  alt?: string;
+  className?: string;
+  style?: CSSProperties;
 };
 
 export default function HoverImage({
   src,
-  alt,
-  style,
-  className,
+  alt = '',
+  style = {},
+  className = '',
 }: HoverImageProps) {
 
   return (
