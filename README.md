@@ -131,6 +131,3 @@ And to use it inside your code:
 import { YourLibComponentA, YourLibComponentB } from '@janedoe/my-lib';
 ```
 
-
----
-
