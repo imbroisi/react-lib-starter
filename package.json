@@ -15,7 +15,7 @@
     "url": "git+https://github.com/imbroisi/react-lib-starter.git"
   },
   "author": "Luiz Imbroisi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/imbroisi/react-lib-starter/issues"
   },
