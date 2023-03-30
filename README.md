@@ -131,15 +131,6 @@ And to use it inside your code:
 import { YourLibComponentA, YourLibComponentB } from '@janedoe/my-lib';
 ```
 
-> ## **Technologies used in this project**
-> 
-> - React 18  
-> - TypeScript  
-> - Rollup  
-> - Jest + React Testing Library  
-> - ESLint  
-> - Husky
 
 ---
 
-Thanks for reading.
