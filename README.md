@@ -1,7 +1,7 @@
 
 # React Lib Development | The Easy Way
 
-Including local library deployment (no need to deploy to **npm** during development), TypeScript, Hooks support, Unit Test, ESLint, pre-commit validations, and no monorepo.
+> _Including local library deployment (no need to deploy to **npm** during development), TypeScript, Hooks support, Unit Test, ESLint, pre-commit validations, and no monorepo._
 
 If you’ve landed on this page, maybe you’re just learning how to make React libraries, or you’ve been beaten a lot trying — creating libraries is not trivial. There are many things to do, between installing specialized libraries, tools and a complex sequence of procedures to locally test you lib.
 
