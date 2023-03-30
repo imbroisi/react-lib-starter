@@ -103,8 +103,6 @@ And see the result in the broser.
 > 
 > _Also, if you only make changes to the test app in the **playground**, you don’t need to rebuild the library — the changes will automatically appear in the browser._
 
-<br/>
-
 ## How to publish your library on npm repo
 ---
 
@@ -133,13 +131,15 @@ And to use it inside your code:
 import { YourLibComponentA, YourLibComponentB } from '@janedoe/my-lib';
 ```
 
-> **Technologies used in this project**
+> ## **Technologies used in this project**
 > 
-> \- React 18  
-> \- TypeScript  
-> \- Rollup  
-> \- Jest + React Testing Library  
-> \- ESLint  
-> \- Husky
+> - React 18  
+> - TypeScript  
+> - Rollup  
+> - Jest + React Testing Library  
+> - ESLint  
+> - Husky
+
+---
 
 Thanks for reading.
