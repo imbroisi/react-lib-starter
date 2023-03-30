@@ -33,7 +33,7 @@ cd library
   cd -
 
   cd ../playground
-    # install lib at package/ to playground app, with the name $LIB_NAME
+    # install lib above content to the playground app, with the name $LIB_NAME
     npm link $LIB_NAME
   cd -
 cd ..
