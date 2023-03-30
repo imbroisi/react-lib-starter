@@ -48,7 +48,6 @@ Now you able to play aroud the project, changing things in the libray and the Ap
 > _If you only make changes to the test App in the _playground_, you don’t need to rebuild the library — the update will show up automatically in the browser._
 
 ---
-
 ## How to create a new project based on react-lib-starter
 
 
@@ -103,8 +102,9 @@ And see the result in the broser.
 > 
 > _Also, if you only make changes to the test app in the **playground**, you don’t need to rebuild the library — the changes will automatically appear in the browser._
 
-## How to publish your library on npm repo
 ---
+## How to publish your library on npm repo
+
 
 Once your lib is done, to be able to publish your project to the **npm** repository you need to have a **npm** account. Access [this link](https://www.npmjs.com/signup) to create a **npm** account if you don’t already have one.
 
