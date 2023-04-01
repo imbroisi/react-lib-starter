@@ -1,6 +1,6 @@
 {
   "name": "react-lib-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Lib Starter",
   "scripts": {
     "start": "cd playground && npm start",
