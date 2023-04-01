@@ -4,10 +4,12 @@
   "description": "React Lib Starter",
   "scripts": {
     "start": "cd playground && npm start",
-    "postinstall": "./scripts/postinstall.sh",
+    "npm-publish": "./scripts/npm-publish.sh",
     "local-publish": "./scripts/local-publish.sh",
+    "local-unpublish": "./scripts/local-unpublish.sh",
     "test": "cd library && npm run test",
     "test:watch": "cd library && npm run test:watch",
+    "postinstall": "./scripts/postinstall.sh",
     "prepare": "husky install"
   },
   "repository": {

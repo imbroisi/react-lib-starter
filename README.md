@@ -108,13 +108,12 @@ And see the result in the broser.
 
 Once your lib is done, to be able to publish your project to the **npm** repository you need to have a **npm** account. Access [this link](https://www.npmjs.com/signup) to create a **npm** account if you don’t already have one.
 
-At **npm** repo your library can be private (only for paid account) or public (free or paid accout).
+At **npm** repo, your library can be private (only for paid account) or public (free or paid accout).
 
-In the terminal go to **_my-lib_** project, directory **_library_**.
+In the terminal go to **_my-lib_** project, root directory.
 
 ```
-npm run build  
-npm publish --access public # or for private lib just "npm publish"
+npm run npm-publish
 ```
 
 Now your library is in the **npm** repo and ready to be used.

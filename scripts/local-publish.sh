@@ -5,7 +5,7 @@ LIB_NAME=$(cat library/package.json \
   | grep name \
   | head -1 \
   | awk -F: '{ print $2 }' \
-  | sed 's/[",]//g')
+  | sed 's/[",|\ ]//g'
 
 cd library
   # delete last created lib if any
