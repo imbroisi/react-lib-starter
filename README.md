@@ -102,6 +102,12 @@ And see the result in the broser.
 > 
 > _Also, if you only make changes to the test app in the **playground**, you don’t need to rebuild the library — the changes will automatically appear in the browser._
 
+
+After all your tests are done, and you are satisfied with your lib to publish it to the NPM repository, you can unpublish it locally:
+
+```bash
+  npm run local-unpublish
+```
 ---
 ## How to publish your library on npm repo
 
