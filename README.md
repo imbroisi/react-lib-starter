@@ -80,7 +80,7 @@ a) update important fields in all three _package.json_ in the project to fit you
 
 ```
 "name": "@janedoe/my-lib",  
-"version": "<THE INITIAL VERION OF THE LIB>", // 0.1.0 is a good choice  
+"version": "<THE INITIAL VERION OF THE LIB>", // 1.0.0 is a good choice  
 "author": "<YOUR NAME>",
 ```
 
